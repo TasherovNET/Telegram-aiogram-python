@@ -16,7 +16,7 @@ sys.stdout.reconfigure(encoding='cp866')
 sys.stderr.reconfigure(encoding='cp866')
 
 logging.basicConfig(level=logging.INFO)
-bot = Bot(token="468926798:AAHk6dSikVI2avEvh3P_tPoZwcGP9cTiymE")
+bot = Bot(token="")
 dp = Dispatcher()
 dp["Start_Time"] = datetime.now().strftime("%d.%m.%Y %H:%M")
 
